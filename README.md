@@ -1,4 +1,4 @@
-# Project Overview: Computation Profilers and Mapping Accuracy
+# Computation Profilers and Mapping Accuracy
 
 ## Introduction
 This repository is dedicated to showcasing the use of computation profilers and mapping accuracy methods. These tools are essential for understanding and optimizing the performance of algorithms in Unmanned Aerial Vehicles (UAVs) and Autonomous Ground Vehicles (AGVs). Profiling helps ensure real-time efficiency, contributing to better system reliability and energy management.
