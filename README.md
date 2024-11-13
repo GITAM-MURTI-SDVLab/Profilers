@@ -14,7 +14,6 @@ Computation profilers provide critical insights into different performance metri
 - **Application in UAVs and AGVs**:
   - For UAVs, excessive CPU load can limit the ability to process new sensor data, affecting tasks like navigation and obstacle avoidance.
   - In AGVs, balancing CPU load ensures smooth and uninterrupted path planning and decision-making in dynamic environments.
-- **Tooling**: Profiling tools such as `htop`, `top`, or custom scripts in Python can be used to monitor CPU usage.
 
 ### 2. **RAM Usage (MB)**
 - **Definition**: RAM usage measures the amount of memory an algorithm consumes while running.
@@ -24,7 +23,6 @@ Computation profilers provide critical insights into different performance metri
 - **Application in UAVs and AGVs**:
   - UAVs require efficient memory usage to avoid performance issues during flight, which could affect mission success and safety.
   - In AGVs, maintaining low and predictable RAM usage ensures consistent response times in operations such as warehouse navigation or industrial automation.
-- **Tooling**: Tools like `memory_profiler` in Python or Linux commands like `vmstat` can help monitor RAM usage effectively.
 
 ### 3. **Computation Time (ms)**
 - **Definition**: Computation time refers to the time taken for an algorithm to process a given task or complete a cycle of its main loop.
@@ -34,7 +32,6 @@ Computation profilers provide critical insights into different performance metri
 - **Application in UAVs and AGVs**:
   - UAVs rely on minimal computation delays to adapt to sudden changes in their environment, such as avoiding unexpected obstacles.
   - AGVs use real-time processing to navigate efficiently and interact with their surroundings without lag, ensuring smooth operations.
-- **Tooling**: Profilers such as `cProfile`, `timeit`, or custom timing scripts can be used to measure computation time with high precision.
 
 ### 4. **Map Accuracy (%)**
 - **Definition**: Map accuracy evaluates how closely the generated map aligns with a known ground truth or reference.
@@ -44,7 +41,6 @@ Computation profilers provide critical insights into different performance metri
 - **Application in UAVs and AGVs**:
   - UAVs use accurate mapping for complex missions such as search and rescue, where navigating through variable terrain is crucial.
   - AGVs depend on accurate maps for effective route planning and obstacle avoidance in warehouses or other operational environments.
-- **Tooling**: Techniques involving point cloud comparison, using tools like Open3D or the `point cloud library (PCL)`, can help in evaluating and quantifying map accuracy.
 
 ## Real-Time Impact
 ### How These Profilers Enhance UAV and AGV Systems
