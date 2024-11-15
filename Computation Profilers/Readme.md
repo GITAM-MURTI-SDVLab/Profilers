@@ -11,9 +11,3 @@ The workflow for using the computation profilers involves the following steps:
    - **CPU Load (%)**
    - **RAM Usage (MB)**
    - **Computation Time (ms)**
-
-## How to Use the Profiler
-1. **Navigate to the folder**:
-   ```bash
-   cd path/to/Computation/profilers
-
