@@ -12,14 +12,7 @@ This folder provides tools and instructions for evaluating mapping accuracy for 
 - **Cross-Method Comparison**: Enables uniform comparison between different SLAM algorithms, facilitating the identification of the most effective method.
 - **Error Analysis**: Accounts for both the magnitude and distribution of errors, helping to pinpoint specific areas of map deviation.
 
-### General RMSE Formula
-\[
-\text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (x_i - y_i)^2}
-\]
-Where:
-- \( x_i \) = Predicted data point (e.g., point on a SLAM map)
-- \( y_i \) = Ground truth data point (e.g., corresponding point on a reference map)
-- \( n \) = Number of points compared
+---
 
 ## Workflow for 2D SLAM Accuracy Evaluation
 
@@ -41,7 +34,6 @@ Where:
 
 ### Key Points:
 - Ensure ground truth data is accurate and corresponds to the same environment conditions as the SLAM-generated map.
-- RMSE calculation can be enhanced by using GIS software or specialized SLAM analysis tools.
 
 ---
 
